@@ -1,0 +1,42 @@
+.header{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: #494FFE;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    color: white;
+    justify-content: space-between;
+}
+.left_icon{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.supply{
+    padding: 10px;
+}
+.icons{
+    position: fixed;
+    right: 0%;
+    float: right;
+    align-items: center;
+}
+.main_icons{
+    padding: 20px;
+}
+.counter{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 16px;
+    right: 78px;
+}

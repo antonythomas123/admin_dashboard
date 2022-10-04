@@ -1,0 +1,35 @@
+.sidebar{ 
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: beige;
+    left: 0;
+    width: 225px;
+    font-family: 'Open Sans',sans-serif;
+    color: #767676;
+}
+.item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.icon{
+    margin-left: 20px;
+    width: 30px;
+}
+.text{
+    margin-left: 12px;
+}
+.heading{
+    padding-left: 40px;
+}
+ul{
+    list-style: none;
+    border-bottom: 0.5px solid #767676;
+}
+ul :hover{
+    background-color: #A5A3A3;
+    transition: .4s;
+    border-radius: 10px;
+}
