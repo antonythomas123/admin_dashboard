@@ -18,7 +18,7 @@ function TopSupplies() {
           Chennai
           <ProgressBar color = 'primary' progress = '80'/>
           Mumbai
-          <ProgressBar coor = 'secondary' progress = '70'/>
+          <ProgressBar color = 'secondary' progress = '70'/>
         </div>
       )
 }
