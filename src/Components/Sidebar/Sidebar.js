@@ -11,7 +11,7 @@ import './Sidebar.css'
 
 function Items({title,icon,link}){
   return(
-    <Link to={link} style={{ textDecoration: 'none', color: '#767676' }}>
+    <Link to={link} style={{ textDecoration: 'none', color: '#414040' }}>
     <li className='item'>
       <span className="icon">{icon}</span>
       <span className='title'>{title}</span>
