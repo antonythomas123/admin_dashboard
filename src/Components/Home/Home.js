@@ -48,7 +48,7 @@ function Home() {
                 depr="+2.5"
               />
               <CityInfo
-                city="Banglore"
+                city="Bangalore"
                 count="44"
                 completed="15"
                 onTime="10.1"
