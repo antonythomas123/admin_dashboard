@@ -6,8 +6,10 @@ import TopSupplies from '../Widgets/TopSupplies/TopSupplies'
 import SupplyOverview from '../Widgets/SupplyOverview/SupplyOverview'
 import CityInfo from '../Widgets/CityInfo/CityInfo'
 import RevenueBreakdown from '../Widgets/RevenueBreakDown/RevenueBreakdown'
+import BasicTable from '../Widgets/Table/Table'
 
 import './Home.css'
+
 
 function Home() {
     return (
@@ -55,7 +57,9 @@ function Home() {
                 depr="+3.1"
               />
             </div>
-            <div className="third"></div>
+            <div className="third">
+                <BasicTable/>
+            </div>
           </div>
         </div>
       </div>

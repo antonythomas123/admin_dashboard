@@ -9,6 +9,7 @@
     width: 100%;
     position: fixed;
     background-color:aliceblue;
+    overflow: scroll;
 }
 .home_container{
     display: flex;
@@ -17,4 +18,7 @@
 }
 .first, .second{
     display: flex;
+}
+.third{
+    padding: 20px;
 }
