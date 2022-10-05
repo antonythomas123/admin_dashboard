@@ -6,7 +6,7 @@ import { useLoadScript } from '@react-google-maps/api';
 import './Trucks.css'
 
 function Trucks() {
-    const {isLoaded} = useLoadScript({googleMapsApiKey:'AIzaSyAKCgOR9szOTEkJlxs_HKj4ctVD2iwg2Vk'})  
+    const {isLoaded} = useLoadScript({googleMapsApiKey: process.env.GOOGLE_MAP_API_KEY})  
   return (
     <div className='trucks'>
             <div><Header /></div>

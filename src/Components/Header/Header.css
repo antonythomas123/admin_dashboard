@@ -20,23 +20,10 @@
     position: fixed;
     right: 0%;
     float: right;
+    display: flex;
     align-items: center;
+    padding: 10px;
 }
 .main_icons{
     padding: 20px;
-}
-.counter{
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    font-weight: bold;
-    position: absolute;
-    top: 16px;
-    right: 78px;
 }
