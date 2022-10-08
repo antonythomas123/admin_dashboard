@@ -1,6 +1,6 @@
 .header{
     height: 65px;
-    width: 101%;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #494FFE;
@@ -24,7 +24,9 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    cursor: pointer;
 }
 .main_icons{
+    cursor: pointer;
     padding: 20px;
 }

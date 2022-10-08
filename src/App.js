@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Trucks from "./Pages/Trucks/Trucks";
 
+import './App.css'
+
 function App() {
   return (
     <Router>

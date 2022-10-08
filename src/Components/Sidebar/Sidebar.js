@@ -29,12 +29,14 @@ function Sidebar() {
           <Items icon={<DashboardIcon/>} title='Trucks' link = '/trucks'/>
           <Items icon={<ContentCopyIcon/>} title='Supplies' />
         </ul>
+        
         <span className="heading">HELP</span>
         <ul>
           <Items icon={<TextSnippetIcon/>} title='Terms'/>
           <Items icon={<QuestionAnswerIcon/>} title='Support'/>
           <Items icon={<HelpOutlineIcon/>} title='FAQ'/>
         </ul>
+        
         <span className="heading">SETTINGS</span>
         <ul>
           <Items icon={<UpdateIcon/>} title='Upgrade'/>

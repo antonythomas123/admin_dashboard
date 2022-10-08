@@ -23,6 +23,7 @@ function RevenueBreakdown() {
         </div>
         <div className="donut">
           <Chart 
+            className='donut_inside'
             type='donut'
             options={options}
             series={series.data}
