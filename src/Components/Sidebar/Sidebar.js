@@ -11,12 +11,11 @@ import './Sidebar.css'
 
 function Items({title,icon,link}){
   return(
-    <Link to={link} style={{ textDecoration: 'none', color: '#414040' }}>
-    <li className='item'>
+    <li className='item' id = {window.location.pathname === Link ? "active":""} 
+        onClick={()=>{window.location.pathname = link;}}>
       <span className="icon">{icon}</span>
       <span className='title'>{title}</span>
     </li>
-    </Link>
   )
 }
 

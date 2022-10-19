@@ -11,9 +11,9 @@ function TopSupplies() {
             <span className='title'>Top Supplies</span>
             <div className='r_side'><MoreVertIcon /></div>
           </div>
-          <div>
-            <span><FiberManualRecordRoundedIcon color='secondary'/>Mumbai</span>
-            <span><FiberManualRecordRoundedIcon color='primary'/>Chennai</span>
+          <div class = "mb-4" >
+            <span class = "mr-4"><FiberManualRecordRoundedIcon color='secondary'/>Mumbai</span>
+            <span class = "mr-4"><FiberManualRecordRoundedIcon color='primary'/>Chennai</span>
           </div>
           Chennai
           <ProgressBar color = 'primary' progress = '80'/>

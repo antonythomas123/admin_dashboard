@@ -1,6 +1,9 @@
 .sidebar{ 
     text-decoration: none;
-    height: 120%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    left: 0;
     background-color: beige;
     width: 225px;
     font-family: 'Open Sans',sans-serif;
@@ -9,19 +12,25 @@
     display: flex;
     align-items: center;
     height: 50px;
-    color: #353536;
 }
 .icon{
     margin-left: 20px;
     width: 30px;
+    color: #767676;
+}
+#active{
+    background-color: #e8f2f5;
 }
 .heading{
-    padding-left: 40px;
+    margin-left: 25px;
+    color: #767676;
 }
 ul{
-    height: max-content;
     list-style: none;
+    margin: 0;
+    padding-left: 0;
     border-bottom: 0.5px solid #767676;
+    margin-bottom: 20px;
 }
 ul :hover{
     cursor: pointer;

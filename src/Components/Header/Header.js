@@ -11,7 +11,7 @@ function Header() {
   return (
     <div className="header">
       <div className="left_icon">
-        <ArrowBackIcon className="main_icons" />
+        <ArrowBackIcon />
         <span className="supply">Supply Chain</span>
       </div>
 
