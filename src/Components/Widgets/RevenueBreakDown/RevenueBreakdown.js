@@ -2,6 +2,7 @@ import React from 'react'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Chart from 'react-apexcharts'
 
+
 function RevenueBreakdown() {
   const options = {
     labels: [
@@ -16,17 +17,17 @@ function RevenueBreakdown() {
   }
   
   return (
-    <div className='widget'>
+    <div class="widget">
         <div className="top">
           <span className="title">Revenue Breakdown</span>
           <div className='r_side'><MoreVertIcon /></div>
         </div>
         <div className="donut">
           <Chart 
-            className='donut_inside'
             type='donut'
             options={options}
             series={series.data}
+            width="270"
           />
         </div>
         

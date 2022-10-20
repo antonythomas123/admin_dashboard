@@ -1,15 +1,13 @@
+
 .container{
-    height:100%;
-    width: 100%;
+    max-height: max-content;
+    max-width: max-content;
     float:left;
     display: flex;
 }
 .home{
-    height:100%;
-    width: 100%;
-    position: fixed;
+    position: relative;
     background-color:aliceblue;
-    overflow: scroll;
 }
 .home_container{
     display: flex;
