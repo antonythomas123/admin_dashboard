@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 225px;
     left: 0;
     background-color: beige;
-    width: 225px;
     font-family: 'Open Sans',sans-serif;
 }
 .item{
