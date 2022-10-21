@@ -1,13 +1,12 @@
 .widget{
     display: flex;
     flex-direction: column;
-    margin: 16px;
+    margin: 15px;
     padding: 20px;
     justify-content: space-between;
     background-color: white;
-    height: 50%;
-    width: 40%;
-    max-width: fit-content;
+    height: 200px;
+    width: 250px;
     border-radius: 10px;
 }
 .l_side{
