@@ -10,7 +10,7 @@ import BasicTable from '../Widgets/Table/Table'
 
 function Home() {
   return (
-    <div class="bg-blue-200 w-full h-full">
+    <div class="bg-gray-200 w-full h-full">
       <div class="flex flex-col">
         <div>
           <Header />
