@@ -8,27 +8,26 @@ import CityInfo from '../Widgets/CityInfo/CityInfo'
 import RevenueBreakdown from '../Widgets/RevenueBreakDown/RevenueBreakdown'
 import BasicTable from '../Widgets/Table/Table'
 
-import './Home.css'
-
-
 function Home() {
-    return (
-      <div className="home">
-        <div className="header">
+  return (
+    <div class="bg-blue-200 w-full h-full">
+      <div class="flex flex-col">
+        <div>
           <Header />
         </div>
-        <div className="container">
-          <div className="sidebar">
+        <div class="flex flex-row ">
+          <div>
             <Sidebar />
           </div>
-          <div className="home_container">
-            <div className="first">
+
+          <div class="w-full m2">
+            <div class="flex flex-row">
               <RidesToday />
               <TopSupplies />
               <SupplyOverview />
               <RevenueBreakdown />
             </div>
-            <div className="second">
+            <div class="flex flex-row">
               <CityInfo
                 city="Chennai"
                 count="199"
@@ -57,13 +56,14 @@ function Home() {
                 depr="+3.1"
               />
             </div>
-            <div className="third">
-                <BasicTable/>
+            <div class="m-2">
+              <BasicTable />
             </div>
           </div>
         </div>
       </div>
-    );
+    </div>
+  )
 }
 
 export default Home
